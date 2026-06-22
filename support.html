@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dotball — Support</title>
+  <style>
+    :root {
+      --bg: #EBE5E4;
+      --card: #FFFFFF;
+      --text: #1E1D24;
+      --muted: #6B6770;
+      --accent: #3C77EC;
+      --border: rgba(30, 29, 36, 0.1);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1E1D24;
+        --card: #2A2931;
+        --text: #EBE5E4;
+        --muted: #9A95A0;
+        --accent: #5B8CF0;
+        --border: rgba(235, 229, 228, 0.12);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+    header { margin-bottom: 32px; }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin: 0 0 4px;
+    }
+    .brand { color: var(--accent); }
+    .updated { color: var(--muted); font-size: 0.9rem; margin: 0; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 28px 8px;
+    }
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin: 28px 0 8px;
+    }
+    h2:first-of-type { margin-top: 4px; }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1><span class="brand">Dotball</span> Support</h1>
+      <p class="updated">We're here to help</p>
+    </header>
+
+    <div class="card">
+      <p>Dotball is a Paper Soccer game for iOS — connect dots, outmaneuver your opponent, and score in their goal. If you have a question, found a bug, or have a suggestion, we'd love to hear from you.</p>
+
+      <h2>Contact Us</h2>
+      <p>Email us at <a href="mailto:mach200studio@gmail.com">mach200studio@gmail.com</a> and we'll get back to you as soon as we can. To help us resolve your issue quickly, please include:</p>
+      <ul>
+        <li>Your device model (e.g. iPhone 15 Pro) and iOS version</li>
+        <li>A short description of what happened and what you expected</li>
+        <li>Steps to reproduce the issue, if you can</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h2>How do I play Dotball?</h2>
+      <p>Players take turns drawing lines between dots on the grid. The ball moves along the lines you draw. Bounce off walls and existing lines for extra moves, and reach your opponent's goal to win. A built-in tutorial walks you through the rules the first time you play.</p>
+
+      <h2>Do I need an account?</h2>
+      <p>No. You can play offline (pass-and-play or vs. the AI) with no account at all. An anonymous account is only created the first time you start an online multiplayer match, and it isn't linked to your name, email, or Apple ID.</p>
+
+      <h2>How does online multiplayer work?</h2>
+      <p>Create a match to get an invite code, share it with a friend, and they join with that code. Both players then play in real time. A stable internet connection on both devices is recommended.</p>
+
+      <h2>How do I change my display name?</h2>
+      <p>Open <em>Settings</em> inside the app and update your nickname. You can change it at any time.</p>
+
+      <h2>How do I manage ads and privacy choices?</h2>
+      <p>Dotball is free and supported by ads. You can manage your choices in <em>Settings &rarr; Manage Privacy Choices</em> inside the app, and adjust tracking via <em>iOS Settings &rarr; Privacy &amp; Security &rarr; Tracking</em>. For full details, see our <a href="index.html">Privacy Policy</a>.</p>
+
+      <h2>Privacy</h2>
+      <p>For details on what data we collect and how it's used, read our <a href="index.html">Privacy Policy</a>.</p>
+    </div>
+
+    <footer>&copy; 2026 Dotball</footer>
+  </div>
+</body>
+</html>
